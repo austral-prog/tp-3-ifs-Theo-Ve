@@ -24,3 +24,17 @@ def password():
         Debe contener un numero
     """
     pass
+
+    contra = input("Cree su conraseña: ") # Pide la contraseña al usuario
+
+    long_contr = len(contra) # Calcula la longitud de la contraseña
+
+    if long_contr >= 8: # Verifica si la contraseña tiene al menos 8 caracteres
+        if "0" in contra or "1" in contra or "2" in contra or "3" in contra or "4" in contra or "5" in contra or "6" in contra or "7" in contra or "8" in contra or "9" in contra:
+            print("Contraseña valida") # Verifica si contiene al menos un número (0-9)
+        else:
+            print("Contraseña invalida") # No tiene números
+    else:
+        print("Contraseña muy corta") # No cumple con la longitud mínima
+
+password()

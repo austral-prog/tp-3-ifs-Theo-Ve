@@ -25,3 +25,50 @@ def discount():
         Total final: 960.0
     """
     pass
+
+    precio = float(input("Ingrese el precio del producto: ")) # Lee el precio unitario (decimal)
+    cant = int(input("Ingrese la cantidad de producrtos que desea comprar: ")) # Lee la cantidad (entero)
+
+    print(f"Subtotal: {precio * cant}") # Muestra el subtotal directamente
+
+    subtotal = precio * cant # Calcula y guarda el subtotal
+
+    # Porcentajes de descuento posibles
+    desc1 = 20
+    desc2 = 10
+    desc3 = 0
+
+    # Determina qué porcentaje de descuento aplicar según la cantidad
+    if cant >= 10:
+        print(f"Descuento aplicado: {desc1}%")
+    elif 5 <= cant <= 9:
+        print(f"Descuento aplicado: {desc2}%")
+    else:
+        print(f"Descuento aplicado: {desc3}%")
+
+    # Calcula y muestra el monto del descuento (en dinero)
+    if cant >= 10:
+        print(f"Monto del descuento: {desc1 * subtotal / 100}")
+        desc_dsp = desc1 # Guarda el descuento aplicado
+    elif 5 <= cant <= 9:
+        print(f"Monto del descuento: {desc2 * subtotal / 100}")
+        desc_dsp = desc2
+    else:
+        print(f"Monto del descuento: {desc3 * subtotal / 100}")
+        desc_dsp = desc3
+
+    descuento = subtotal * desc_dsp / 100 # Calcula el descuento en dinero
+
+    print(f"Total final: {subtotal - descuento}") # Calcula y muestra el total final
+
+
+
+
+
+
+
+
+
+
+
+discount()
