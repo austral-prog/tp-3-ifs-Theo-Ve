@@ -60,4 +60,4 @@ def discount():
 
     print(f"Total final: {subtotal - descuento}") # Calcula y muestra el total final
 
-discount()
+#discount()
