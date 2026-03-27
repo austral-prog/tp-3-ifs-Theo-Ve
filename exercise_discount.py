@@ -42,18 +42,18 @@ def discount():
         print(f"Descuento aplicado: {desc1}%")
     elif 5 <= cant <= 9:
         print(f"Descuento aplicado: {desc2}%")
-    else:
+    elif 0 <= cant <= 4:
         print(f"Descuento aplicado: {desc3}%")
 
     # Calcula y muestra el monto del descuento (en dinero)
     if cant >= 10:
-        print(f"Monto del descuento: {desc1 * subtotal / 100}")
+        print(f"Monto de descuento: {desc1 * subtotal / 100}")
         desc_dsp = desc1 # Guarda el descuento aplicado
     elif 5 <= cant <= 9:
-        print(f"Monto del descuento: {desc2 * subtotal / 100}")
+        print(f"Monto de descuento: {desc2 * subtotal / 100}")
         desc_dsp = desc2
-    else:
-        print(f"Monto del descuento: {desc3 * subtotal}")
+    elif 0 <= cant <= 4:
+        print(f"Monto de descuento: {desc3 * subtotal}")
         desc_dsp = desc3
 
     descuento = subtotal * desc_dsp / 100 # Calcula el descuento en dinero
