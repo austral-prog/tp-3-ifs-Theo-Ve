@@ -31,7 +31,7 @@ def discount():
 
     precio = float(input())
     cant = int(input())
-    
+
     print(f"Subtotal: {precio * cant}") # Muestra el subtotal directamente
 
     subtotal = precio * cant # Calcula y guarda el subtotal
@@ -64,4 +64,4 @@ def discount():
 
     print(f"Total final: {subtotal - descuento}") # Calcula y muestra el total final
 
-discount()
+#discount()
