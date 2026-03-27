@@ -17,9 +17,13 @@ def triangle():
     """
     pass
 
-    lado1 = float(input("Ingrese la longitud de un lado de un triangulo: ")) # Lee los lados de un triangulo
-    lado2 = float(input("Ingrese la longitud de un lado de un triangulo: "))
-    lado3 = float(input("Ingrese la longitud de un lado de un triangulo: "))
+    #lado1 = float(input("Ingrese la longitud de un lado de un triangulo: ")) # Lee los lados de un triangulo
+    #lado2 = float(input("Ingrese la longitud de un lado de un triangulo: "))
+    #lado3 = float(input("Ingrese la longitud de un lado de un triangulo: "))
+
+    lado1 = float(input())
+    lado2 = float(input())
+    lado3 = float(input())
 
     if lado1 + lado2 > lado3: # Verifica si la suma de 2 lados es mayor que el 3
         if lado1 + lado3 > lado2:

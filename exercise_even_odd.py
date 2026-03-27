@@ -14,7 +14,8 @@ def even_odd():
     """
     pass
 
-    numero = int(input("Ingrese un numero entero: ")) # Lee un número (entero)
+    #numero = int(input("Ingrese un numero entero: ")) # Lee un número (entero)
+    numero = int(input())
 
     if numero % 2 == 0: # Si el resto es 0, es par
         print(f"El numero {numero} es par")

@@ -25,9 +25,13 @@ def calculator():
     pass
 
 
-    num1 = float(input("Ingrese un numero: ")) # Lee los números (decimales)
-    num2 = float(input("Ingrese un numero: "))
-    op = input("Ingrese un simbolo de operacion: ") # Lee la operación (+, -, *, /)
+    #num1 = float(input("Ingrese un numero: ")) # Lee los números (decimales)
+    #num2 = float(input("Ingrese un numero: "))
+    #op = input("Ingrese un simbolo de operacion: ") # Lee la operación (+, -, *, /)
+
+    num1 = float(input())
+    num2 = float(input())
+    op = input()
 
     # Verifica qué operación eligió el usuario
     if op=="+":

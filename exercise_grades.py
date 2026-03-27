@@ -20,7 +20,8 @@ def grades():
     """
     pass
 
-    nota = int(input("Ingrese su nota: ")) # Lee la nota como número entero
+    #nota = int(input("Ingrese su nota: ")) # Lee la nota como número entero
+    nota = int(input())
 
     # Clasifica la nota según el rango
     if 9 <= nota <= 10:

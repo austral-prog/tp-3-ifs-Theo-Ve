@@ -20,8 +20,11 @@ def age_check():
     """
     pass
 
-    edad = int(input("Ingrese su edad: ")) # Lee la edad de la persona y el limite de edad
-    lim = int(input("Ingrese una edad maxima: "))
+    #edad = int(input("Ingrese su edad: ")) # Lee la edad de la persona y el limite de edad
+    #lim = int(input("Ingrese una edad maxima: "))
+
+    edad = int(input())
+    lim = int(input())
 
     if edad <= 0: # Verifica si la edad es inválida (menor o igual a 0)
         print("Entrada invalida")

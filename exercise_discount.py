@@ -26,9 +26,12 @@ def discount():
     """
     pass
 
-    precio = float(input("Ingrese el precio del producto: ")) # Lee el precio unitario (decimal)
-    cant = int(input("Ingrese la cantidad de producrtos que desea comprar: ")) # Lee la cantidad (entero)
+    #precio = float(input("Ingrese el precio del producto: ")) # Lee el precio unitario (decimal)
+    #cant = int(input("Ingrese la cantidad de producrtos que desea comprar: ")) # Lee la cantidad (entero)
 
+    precio = float(input())
+    cant = int(input())
+    
     print(f"Subtotal: {precio * cant}") # Muestra el subtotal directamente
 
     subtotal = precio * cant # Calcula y guarda el subtotal
@@ -61,4 +64,4 @@ def discount():
 
     print(f"Total final: {subtotal - descuento}") # Calcula y muestra el total final
 
-#discount()
+discount()

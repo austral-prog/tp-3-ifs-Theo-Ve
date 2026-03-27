@@ -19,7 +19,8 @@ def weekday():
     """
     pass
 
-    dia = input("Ingrese un dia de la semana: ").lower() # Lee el día y lo pasa a minúsculas
+    #dia = input("Ingrese un dia de la semana: ").lower() # Lee el día y lo pasa a minúsculas
+    dia = input().lower()
 
     if not(dia == "sabado" or dia == "domingo"): # Verifica si NO es sábado ni domingo (día hábil)
         print("Dia habil")

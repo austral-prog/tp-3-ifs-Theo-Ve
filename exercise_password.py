@@ -25,7 +25,8 @@ def password():
     """
     pass
 
-    contra = input("Cree su conraseña: ") # Pide la contraseña al usuario
+    #contra = input("Cree su conraseña: ") # Pide la contraseña al usuario
+    contra =input()
 
     long_contr = len(contra) # Calcula la longitud de la contraseña
 
