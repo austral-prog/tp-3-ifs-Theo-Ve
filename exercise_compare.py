@@ -32,4 +32,4 @@ def compare():
         print(f"{num_1} es igual a {num_2}")
 
 
-compare()
+#compare()
