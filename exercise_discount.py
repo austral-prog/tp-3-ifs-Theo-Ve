@@ -53,7 +53,7 @@ def discount():
         print(f"Monto del descuento: {desc2 * subtotal / 100}")
         desc_dsp = desc2
     else:
-        print(f"Monto del descuento: {desc3 * subtotal / 100}")
+        print(f"Monto del descuento: {subtotal}")
         desc_dsp = desc3
 
     descuento = subtotal * desc_dsp / 100 # Calcula el descuento en dinero
