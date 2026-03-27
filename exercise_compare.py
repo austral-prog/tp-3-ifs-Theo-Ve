@@ -17,8 +17,11 @@ def compare():
     """
     pass
 
-    num_1 = int(input("Ingrese un numero: ")) # Lee los número (enteros)
-    num_2 = int(input("Ingrese un numero: "))
+    #num_1 = int(input("Ingrese un numero: ")) # Lee los número (enteros)
+    #num_2 = int(input("Ingrese un numero: "))
+
+    num_1 = int(input())
+    num_2 = int(input())
 
     # Compara los dos números
     if num_1 > num_2:
@@ -29,4 +32,4 @@ def compare():
         print(f"{num_1} es igual a {num_2}")
 
 
-#compare()
+compare()
