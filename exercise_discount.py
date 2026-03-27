@@ -33,9 +33,9 @@ def discount():
     subtotal = precio * cant # Calcula y guarda el subtotal
 
     # Porcentajes de descuento posibles
-    desc1 = 20.0
-    desc2 = 10.0
-    desc3 = 0.0
+    desc1 = 20
+    desc2 = 10
+    desc3 = 0
 
     # Determina qué porcentaje de descuento aplicar según la cantidad
     if cant >= 10:
